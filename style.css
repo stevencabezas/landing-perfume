@@ -158,6 +158,37 @@ footer a {
     overflow-y: auto;
 }
 
+/* logo whatsapp chat */
+
+/* Estilo para el botón flotante de WhatsApp */
+.whatsapp-float {
+    position: fixed;
+    bottom: 20px;       /* Ajusta la distancia desde la parte inferior */
+    right: 20px;        /* Ajusta la distancia desde la parte derecha */
+    background-color: #25D366; /* Color de fondo de WhatsApp */
+    border-radius: 50%;
+    padding: 5px 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    z-index: 1000; /* Asegura que el icono esté por encima de otros elementos */
+}
+
+.whatsapp-float img {
+    padding-top: 6px;
+    width: 50px;
+    height: 51px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Efecto al pasar el mouse por encima */
+.whatsapp-float:hover {
+    transform: scale(1.1);  /* Efecto de zoom al pasar el mouse */
+    transition: transform 0.3s;
+}
+
+
+/* fin logo chat */
+
 @media (max-width: 768px) {
     .content-box-absolute {
         top: 40%;
