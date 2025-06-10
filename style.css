@@ -79,7 +79,7 @@ header {
 .producto {
     background-color: #f9f9f9;
     padding: 20px;
-    width: 100%;
+    width: 250px;
     margin: 10px;
     text-align: center;
     border-radius: 8px;
@@ -87,6 +87,7 @@ header {
 
 .producto img {
     width: 100%;
+    height: 250px;
     border-radius: 8px;
 }
 
@@ -197,6 +198,12 @@ footer a {
         top: 0;
         right: 15px;
         content: 'X';
+    }
+    .producto {
+        width: 100%;
+    }
+    .producto img {
+        height: auto;
     }
 }
 
