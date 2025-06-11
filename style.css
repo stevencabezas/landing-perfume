@@ -114,19 +114,18 @@ footer a {
 }
 
 .banner-description, .banner-heading{
-    color: #fff;
+    color: #212121;
 }
 
 .banner-heading{
     text-align: center;
     padding-bottom: 10px;
-    font-size: 30px;
+    font-size: 35px;
     text-transform: uppercase;
 }
 
 .banner-description{
     font-size: 16px;
-    line-height: 25px;
 }
 
 .banner-button{
@@ -191,7 +190,7 @@ footer a {
 
 @media (max-width: 768px) {
     .content-box-absolute {
-        top: 40%;
+        top: 45%;
         left: 0%;
     }
     .navbar ul {
@@ -212,9 +211,9 @@ footer a {
     }
     
     .banner-description{
-        font-size: 13px;
-        word-spacing: 4px;
-        line-height: 25px;
+        font-size: 15px;
+        line-height: 22px;
+        padding-left: 100px;
     }
 
     .navbar.active .logo{
