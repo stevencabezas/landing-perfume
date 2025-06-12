@@ -8,6 +8,9 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
 }
+html, body {
+    overflow-x: hidden;
+}
 
 header {
     background-color: #fff;
@@ -184,13 +187,53 @@ footer a {
     transform: scale(1.1);  /* Efecto de zoom al pasar el mouse */
     transition: transform 0.3s;
 }
-
-
 /* fin logo chat */
+
+/* codigo marcas */
+.marcas {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+.marcas h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+    color: #232323;
+}
+
+.marcas-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+
+.marca {
+    width: 150px;
+    text-align: center;
+}
+
+.marca img {
+    width: 140px;
+    height: 140px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.marca p {
+    font-weight: 600;
+    color: #333;
+    font-size: 14px;
+}
 
 @media (max-width: 768px) {
     .content-box-absolute {
-        top: 45%;
+        top: 32%;
         left: 0%;
     }
     .navbar ul {
@@ -213,7 +256,7 @@ footer a {
     .banner-description{
         font-size: 15px;
         line-height: 22px;
-        padding-left: 100px;
+        padding-left: 75px;
     }
 
     .navbar.active .logo{
