@@ -13,6 +13,27 @@ function redirectToWhatsApp(brand, product, price, imageUrl) {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
+    // Agregar el efecto de desplazamiento suave
+    const links = document.querySelectorAll('a[href^="#"]');
+    
+    links.forEach(link => {
+        link.addEventListener("click", function(event) {
+            // Evitar el comportamiento por defecto
+            event.preventDefault();
+
+            // Obtener el destino del enlace (el id de la sección)
+            const targetId = link.getAttribute("href").substring(1); // Eliminar el '#' del href
+            const targetElement = document.getElementById(targetId);
+
+            // Realizar el desplazamiento suave
+            window.scrollTo({
+                top: targetElement.offsetTop,
+                behavior: "smooth"
+            });
+        });
+    });
+
+    // Animación de marcas
     const marcas = document.querySelectorAll('.marca');
 
     const observer = new IntersectionObserver((entries) => {
