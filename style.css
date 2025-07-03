@@ -117,7 +117,7 @@ footer a {
 }
 
 .banner-description, .banner-heading{
-    color: #212121;
+    color: #fff;
 }
 
 .banner-heading{
@@ -143,6 +143,7 @@ footer a {
 }
 
 .content-box-absolute {
+    margin-top: 210px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -155,7 +156,6 @@ footer a {
     transform: translateY(-47%);
     max-width: 100%;
     width: 475px;
-    max-height: 100%;
     overflow-x: hidden;
     overflow-y: auto;
 }
@@ -245,6 +245,15 @@ section:nth-of-type(even) {
     background-color: #eef1f1; /* alternancia */
 }
 
+.main-section{
+    background-image: url("https://cdn.wallpapersafari.com/10/67/aXhmCM.jpg");
+    background-size: cover;    /* La imagen cubre todo el contenedor */
+    background-position: center; /* Centrada */
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 460px;
+}
+
 @media (max-width: 768px) {
     .content-box-absolute {
         top: 32%;
@@ -270,7 +279,7 @@ section:nth-of-type(even) {
     .banner-description{
         font-size: 15px;
         line-height: 22px;
-        padding-left: 75px;
+        padding-right: 75px;
     }
 
     .navbar.active .logo{
