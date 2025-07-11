@@ -143,7 +143,7 @@ footer a {
 }
 
 .content-box-absolute {
-    margin-top: 210px;
+    margin-top: 240px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -251,7 +251,7 @@ section:nth-of-type(even) {
     background-position: center; /* Centrada */
     background-repeat: no-repeat;
     width: 100%;
-    height: 460px;
+    min-height: 520px;
 }
 
 @media (max-width: 768px) {
@@ -279,7 +279,6 @@ section:nth-of-type(even) {
     .banner-description{
         font-size: 15px;
         line-height: 22px;
-        padding-right: 75px;
     }
 
     .navbar.active .logo{
