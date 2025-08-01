@@ -50,3 +50,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
     marcas.forEach(marca => observer.observe(marca));
 });
+
+document.querySelectorAll('.marca').forEach(marca => {
+    marca.addEventListener('click', () => {
+        const marcaId = marca.getAttribute('data-id');
+        if (!marcaId) return; // ⛔ Si no tiene data-id, no hace nada
+        window.location.href = `marca.html?marca=${marcaId}`; // Redirige a la página de la marca
+    });
+});

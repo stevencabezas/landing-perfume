@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfumería Oasis Deluxe</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="marca.js" type="module" defer></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="./index.html">Perfumería Oasis Deluxe</a>
+            </div>
+            <ul class="menu">
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="./decants.html">Decants</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+            </ul>
+            <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+        </nav>
+    </header>
+
+    <section class="marca-info">
+        <h2 id="marcaNombre"></h2>
+        <div id="perfumery">
+            <div class="perfumery-section">
+                <h3>Hombres</h3>
+                <div id="hombres" class="perfumery-images"></div>
+            </div>
+            <div class="perfumery-section">
+                <h3 class="marca-info__mujeres-text">Mujeres</h3>
+                <div id="mujeres" class="perfumery-images"></div>
+            </div>
+            <div class="perfumery-section">
+                <h3>Unixes</h3>
+                <div id="unixes" class="perfumery-images"></div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Perfumería Oasis Deluxe</p>
+        <p><a href="#">Política de privacidad</a></p>
+    </footer>
+
+    
+    <a href="https://wa.me/50687683732?text=Hola,%20quiero%20más%20información" class="whatsapp-float" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" />
+    </a>
+</body>
+</html>
