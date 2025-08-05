@@ -60,6 +60,95 @@ const marcasData = [
             ]
         }
     },
+    {
+        id: "bharara",
+        nombre: "Bharara",
+        perfumes: {
+            hombres: [
+                "./img/bharara/hombre/1.jpg",
+                "./img/bharara/hombre/2.jpg",
+                "./img/bharara/hombre/3.jpg",
+                "./img/bharara/hombre/4.jpg",
+                "./img/bharara/hombre/5.jpg",
+            ],
+            mujeres: [
+                "./img/bharara/mujer/1.jpg",
+                "./img/bharara/mujer/2.jpg",
+                "./img/bharara/mujer/3.jpg",
+            ],
+            unixes: [
+            ]
+        }
+    },
+    {
+        id: "dumont",
+        nombre: "Dumont",
+        perfumes: {
+            hombres: [
+                "./img/dumont/hombre/1.jpg",
+                "./img/dumont/hombre/2.jpg",
+                "./img/dumont/hombre/3.jpg",
+            ],
+            mujeres: [
+            ],
+            unixes: [
+            ]
+        }
+    },
+    {
+        id: "frenchavenue",
+        nombre: "French Avenue",
+        perfumes: {
+            hombres: [
+                "./img/frenchavenue/hombre/1.jpg",
+                "./img/frenchavenue/hombre/2.jpg",
+                "./img/frenchavenue/hombre/3.jpg",
+                "./img/frenchavenue/hombre/4.jpg",
+            ],
+            mujeres: [
+            ],
+            unixes: [
+            ]
+        }
+    },
+    {
+        id: "jomilano",
+        nombre: "French Avenue",
+        perfumes: {
+            hombres: [
+                "./img/jomilano/hombre/1.jpg",
+                "./img/jomilano/hombre/2.jpg",
+                "./img/jomilano/hombre/3.jpg",
+            ],
+            mujeres: [
+            ],
+            unixes: [
+            ]
+        }
+    },
+    {
+        id: "lattafa",
+        nombre: "Lattafa",
+        perfumes: {
+            hombres: [
+                "./img/lattafa/hombre/1.jpg",
+                "./img/lattafa/hombre/2.jpg",
+                "./img/lattafa/hombre/3.jpg",
+                "./img/lattafa/hombre/4.jpg",
+                "./img/lattafa/hombre/5.jpg",
+                "./img/lattafa/hombre/6.jpg",
+                "./img/lattafa/hombre/7.jpg",
+            ],
+            mujeres: [
+                "./img/lattafa/mujer/1.jpg",
+                "./img/lattafa/mujer/2.jpg",
+                "./img/lattafa/mujer/3.jpg",
+                "./img/lattafa/mujer/4.jpg",
+            ],
+            unixes: [
+            ]
+        }
+    },
 ];
 
 export { marcasData };
