@@ -149,6 +149,75 @@ const marcasData = [
             ]
         }
     },
+    {
+        id: "maisonalhambra",
+        nombre: "Maison Alhambra",
+        perfumes: {
+            hombres: [
+                "./img/maisonalhambra/hombre/1.jpg",
+                "./img/maisonalhambra/hombre/2.jpg",
+                "./img/maisonalhambra/hombre/3.jpg",
+                "./img/maisonalhambra/hombre/4.jpg",
+            ],
+            mujeres: [
+                "./img/maisonalhambra/mujer/1.jpg",
+                "./img/maisonalhambra/mujer/2.jpg",
+                "./img/maisonalhambra/mujer/3.jpg",
+            ],
+            unixes: [
+            ]
+        }
+    },
+    {
+        id: "orientica",
+        nombre: "Orientica",
+        perfumes: {
+            hombres: [
+            ],
+            mujeres: [
+            ],
+            unixes: [
+                "./img/orientica/hombre/1.jpg",
+                "./img/orientica/hombre/2.jpg",
+                "./img/orientica/hombre/3.jpg",
+                "./img/orientica/hombre/4.jpg",
+                "./img/orientica/hombre/5.jpg",
+            ]
+        }
+    },
+    {
+        id: "rasasi",
+        nombre: "Rasasi",
+        perfumes: {
+            hombres: [
+            ],
+            mujeres: [
+            ],
+            unixes: [
+                "./img/rasasi/hombre/1.jpg",
+                "./img/rasasi/hombre/2.jpg",
+                "./img/rasasi/hombre/3.jpg",
+                "./img/rasasi/hombre/4.jpg",
+                "./img/rasasi/hombre/5.jpg",
+                "./img/rasasi/hombre/6.jpg",
+            ]
+        }
+    },
+    {
+        id: "rave",
+        nombre: "Rave",
+        perfumes: {
+            hombres: [
+                "./img/rave/hombre/1.jpg",
+            ],
+            mujeres: [
+            ],
+            unixes: [
+                "./img/rave/hombre/2.jpg",
+                "./img/rave/hombre/3.jpg",
+            ]
+        }
+    },
 ];
 
 export { marcasData };
