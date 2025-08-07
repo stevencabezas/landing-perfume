@@ -218,6 +218,96 @@ const marcasData = [
             ]
         }
     },
+    {
+        id: "antoniobanderas",
+        nombre: "Antonio Banderas",
+        perfumes: {
+            hombres: [
+                "./img/antoniobanderas/hombre/1.jpg",
+            ],
+            mujeres: [
+            ],
+            unixes: [
+            ]
+        }
+    },
+    {
+        id: "azzaro",
+        nombre: "Azzaro",
+        perfumes: {
+            hombres: [
+                "./img/azzaro/hombre/1.jpg",
+                "./img/azzaro/hombre/2.jpg",
+                "./img/azzaro/hombre/3.jpg",
+                "./img/azzaro/hombre/4.jpg",
+                "./img/azzaro/hombre/5.jpg",
+            ],
+            mujeres: [
+            ],
+            unixes: [
+            ]
+        }
+    },
+    {
+        id: "burberry",
+        nombre: "Burberry",
+        perfumes: {
+            hombres: [
+                "./img/burberry/hombre/1.jpg",
+                "./img/burberry/hombre/2.jpg",
+                "./img/burberry/hombre/3.jpg",
+            ],
+            mujeres: [
+                "./img/burberry/mujer/1.jpg",
+                "./img/burberry/mujer/2.jpg",
+                "./img/burberry/mujer/3.jpg",
+                "./img/burberry/mujer/4.jpg",
+            ],
+            unixes: [
+            ]
+        }
+    },
+    {
+        id: "bvlgari",
+        nombre: "Bvlgari",
+        perfumes: {
+            hombres: [
+                "./img/bvlgari/hombre/1.jpg",
+                "./img/bvlgari/hombre/2.jpg",
+                "./img/bvlgari/hombre/3.jpg",
+                "./img/bvlgari/hombre/4.jpg",
+            ],
+            mujeres: [
+                "./img/bvlgari/mujer/1.jpg",
+                "./img/bvlgari/mujer/2.jpg",
+                "./img/bvlgari/mujer/3.jpg",
+            ],
+            unixes: [
+            ]
+        }
+    },
+    {
+        id: "carolinaherrera",
+        nombre: "Carolina Herrera",
+        perfumes: {
+            hombres: [
+                "./img/carolinaherrera/hombre/1.jpg",
+                "./img/carolinaherrera/hombre/2.jpg",
+                "./img/carolinaherrera/hombre/3.jpg",
+                "./img/carolinaherrera/hombre/4.jpg",
+                "./img/carolinaherrera/hombre/5.jpg",
+            ],
+            mujeres: [
+                "./img/carolinaherrera/mujer/1.jpg",
+                "./img/carolinaherrera/mujer/2.jpg",
+                "./img/carolinaherrera/mujer/3.jpg",
+                "./img/carolinaherrera/mujer/4.jpg",
+                "./img/carolinaherrera/mujer/5.jpg",
+            ],
+            unixes: [
+            ]
+        }
+    },
 ];
 
 export { marcasData };
