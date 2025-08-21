@@ -308,6 +308,267 @@ const marcasData = [
             ]
         }
     },
+    {
+        id: "chanel",
+        nombre: "Chanel",
+        perfumes: {
+            hombres: [
+                "./img/chanel/hombre/1.jpg",
+                "./img/chanel/hombre/2.jpg",
+                "./img/chanel/hombre/3.jpg",
+            ],
+            mujeres: [
+                "./img/chanel/mujer/1.jpg",
+                "./img/chanel/mujer/2.jpg",
+                "./img/chanel/mujer/3.jpg",
+            ],
+            unixes: [
+            ]
+        }
+    },
+    {
+        id: "clinique",
+        nombre: "Clinique",
+        perfumes: {
+            hombres: [
+                "./img/clinique/hombre/1.jpg",
+            ],
+            mujeres: [
+            ],
+            unixes: [
+            ]
+        }
+    },
+    {
+        id: "dior",
+        nombre: "Dior",
+        perfumes: {
+            hombres: [
+                "./img/dior/hombre/1.jpg",
+                "./img/dior/hombre/2.jpg",
+                "./img/dior/hombre/3.jpg",
+                "./img/dior/hombre/4.jpg",
+                "./img/dior/hombre/5.jpg",
+                "./img/dior/hombre/6.jpg",
+            ],
+            mujeres: [
+                "./img/dior/mujer/1.jpg",
+                "./img/dior/mujer/2.jpg",
+                "./img/dior/mujer/3.jpg",
+                "./img/dior/mujer/4.jpg",
+            ],
+            unixes: [
+            ]
+        }
+    },
+    {
+        id: "dolcegabbana",
+        nombre: "Dolce&Gabbana",
+        perfumes: {
+            hombres: [
+                "./img/dolcegabbana/hombre/1.jpg",
+                "./img/dolcegabbana/hombre/2.jpg",
+                "./img/dolcegabbana/hombre/3.jpg",
+                "./img/dolcegabbana/hombre/4.jpg",
+                "./img/dolcegabbana/hombre/5.jpg",
+            ],
+            mujeres: [
+                "./img/dolcegabbana/mujer/1.jpg",
+                "./img/dolcegabbana/mujer/2.jpg",
+                "./img/dolcegabbana/mujer/3.jpg",
+                "./img/dolcegabbana/mujer/4.jpg",
+                "./img/dolcegabbana/mujer/5.jpg",
+            ],
+            unixes: [
+            ]
+        }
+    },
+    {
+        id: "giorgioarmani",
+        nombre: "Giorgio Armani",
+        perfumes: {
+            hombres: [
+                "./img/giorgioarmani/hombre/1.jpg",
+                "./img/giorgioarmani/hombre/2.jpg",
+                "./img/giorgioarmani/hombre/3.jpg",
+                "./img/giorgioarmani/hombre/4.jpg",
+                "./img/giorgioarmani/hombre/5.jpg",
+                "./img/giorgioarmani/hombre/6.jpg",
+                "./img/giorgioarmani/hombre/7.jpg",
+            ],
+            mujeres: [
+                "./img/giorgioarmani/mujer/1.jpg",
+                "./img/giorgioarmani/mujer/2.jpg",
+                "./img/giorgioarmani/mujer/3.jpg",
+                "./img/giorgioarmani/mujer/4.jpg",
+            ],
+            unixes: [
+            ]
+        }
+    },
+    {
+        id: "givenchy",
+        nombre: "Givenchy",
+        perfumes: {
+            hombres: [
+                "./img/givenchy/hombre/1.jpg",
+                "./img/givenchy/hombre/2.jpg",
+                "./img/givenchy/hombre/3.jpg",
+            ],
+            mujeres: [
+                "./img/givenchy/mujer/1.jpg",
+                "./img/givenchy/mujer/2.jpg",
+            ],
+            unixes: [
+            ]
+        }
+    },
+    {
+        id: "guerlain",
+        nombre: "Guerlain",
+        perfumes: {
+            hombres: [
+                "./img/guerlain/hombre/1.jpg",
+                "./img/guerlain/hombre/2.jpg",
+                "./img/guerlain/hombre/3.jpg",
+            ],
+            mujeres: [
+            ],
+            unixes: [
+            ]
+        }
+    },
+    {
+        id: "hallowen",
+        nombre: "Halloween",
+        perfumes: {
+            hombres: [
+                "./img/hallowen/hombre/1.jpg",
+                "./img/hallowen/hombre/2.jpg",
+                "./img/hallowen/hombre/3.jpg",
+            ],
+            mujeres: [
+                "./img/hallowen/mujer/1.jpg",
+                "./img/hallowen/mujer/2.jpg",
+                "./img/hallowen/mujer/3.jpg",
+            ],
+            unixes: [
+            ]
+        }
+    },
+    {
+        id: "hermes",
+        nombre: "Hermès",
+        perfumes: {
+            hombres: [
+                "./img/hermes/hombre/1.jpg",
+                "./img/hermes/hombre/2.jpg",
+            ],
+            mujeres: [
+            ],
+            unixes: [
+            ]
+        }
+    },
+    {
+        id: "hugoboss",
+        nombre: "Hugo Boss",
+        perfumes: {
+            hombres: [
+                "./img/hugoboss/hombre/1.jpg",
+                "./img/hugoboss/hombre/2.jpg",
+                "./img/hugoboss/hombre/3.jpg",
+                "./img/hugoboss/hombre/4.jpg",
+            ],
+            mujeres: [
+                "./img/hugoboss/mujer/1.jpg",
+            ],
+            unixes: [
+            ]
+        }
+    },
+    {
+        id: "isseymiyake",
+        nombre: "Issey Miyake",
+        perfumes: {
+            hombres: [
+                "./img/isseymiyake/hombre/1.jpg",
+                "./img/isseymiyake/hombre/2.jpg",
+                "./img/isseymiyake/hombre/3.jpg",
+            ],
+            mujeres: [
+            ],
+            unixes: [
+            ]
+        }
+    },
+    {
+        id: "jeanpaulgaultier",
+        nombre: "Jean Paul Gaultier",
+        perfumes: {
+            hombres: [
+                "./img/jeanpaulgaultier/hombre/1.jpg",
+                "./img/jeanpaulgaultier/hombre/2.jpg",
+                "./img/jeanpaulgaultier/hombre/3.jpg",
+                "./img/jeanpaulgaultier/hombre/4.jpg",
+                "./img/jeanpaulgaultier/hombre/5.jpg",
+                "./img/jeanpaulgaultier/hombre/6.jpg",
+                "./img/jeanpaulgaultier/hombre/7.jpg",
+            ],
+            mujeres: [
+                "./img/jeanpaulgaultier/mujer/1.jpg",
+                "./img/jeanpaulgaultier/mujer/2.jpg",
+                "./img/jeanpaulgaultier/mujer/3.jpg",
+                "./img/jeanpaulgaultier/mujer/4.jpg",
+            ],
+            unixes: [
+            ]
+        }
+    },
+    {
+        id: "kenzo",
+        nombre: "Kenzo",
+        perfumes: {
+            hombres: [
+                "./img/kenzo/hombre/1.jpg",
+            ],
+            mujeres: [
+            ],
+            unixes: [
+            ]
+        }
+    },
+    {
+        id: "lacoste",
+        nombre: "Lacoste Fragrances",
+        perfumes: {
+            hombres: [
+                "./img/lacoste/hombre/1.jpg",
+                "./img/lacoste/hombre/2.jpg",
+                "./img/lacoste/hombre/3.jpg",
+            ],
+            mujeres: [
+                "./img/lacoste/mujer/1.jpg",
+                "./img/lacoste/mujer/2.jpg",
+            ],
+            unixes: [
+            ]
+        }
+    },
+    {
+        id: "loewe",
+        nombre: "Loewe",
+        perfumes: {
+            hombres: [
+                "./img/loewe/hombre/1.jpg",
+                "./img/loewe/hombre/2.jpg",
+            ],
+            mujeres: [
+            ],
+            unixes: [
+            ]
+        }
+    },
 ];
 
 export { marcasData };

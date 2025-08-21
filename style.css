@@ -557,6 +557,7 @@ body {
 
 /* Contenedor general de la marca */
 .marca-info {
+    min-height: 87dvh;
     max-width: 1200px;
     margin: 0 auto;
     padding: 40px 20px;
