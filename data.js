@@ -569,6 +569,379 @@ const marcasData = [
             ]
         }
     },
+    {
+        id: "louisvuitton",
+        nombre: "Louis Vuitton",
+        perfumes: {
+            hombres: [
+                "./img/louisvuitton/hombre/1.jpg",
+                "./img/louisvuitton/hombre/2.jpg",
+                "./img/louisvuitton/hombre/3.jpg",
+                "./img/louisvuitton/hombre/4.jpg",
+                "./img/louisvuitton/hombre/5.jpg",
+            ],
+            mujeres: [
+                "./img/louisvuitton/mujer/1.jpg",
+                "./img/louisvuitton/mujer/2.jpg",
+            ],
+            unixes: [
+            ]
+        }
+    },
+    {
+        id: "moschino",
+        nombre: "Moschino",
+        perfumes: {
+            hombres: [
+                "./img/moschino/hombre/1.jpg",
+                "./img/moschino/hombre/2.jpg",
+            ],
+            mujeres: [
+                "./img/moschino/mujer/1.jpg",
+                "./img/moschino/mujer/2.jpg",
+            ],
+            unixes: [
+            ]
+        }
+    },
+    {
+        id: "nautica",
+        nombre: "Nautica",
+        perfumes: {
+            hombres: [
+                "./img/nautica/hombre/1.jpg",
+                "./img/nautica/hombre/2.jpg",
+                "./img/nautica/hombre/3.jpg",
+            ],
+            mujeres: [
+            ],
+            unixes: [
+            ]
+        }
+    },
+    {
+        id: "pacorabanne",
+        nombre: "Paco Rabanne",
+        perfumes: {
+            hombres: [
+                "./img/pacorabanne/hombre/1.jpg",
+                "./img/pacorabanne/hombre/2.jpg",
+                "./img/pacorabanne/hombre/3.jpg",
+                "./img/pacorabanne/hombre/4.jpg",
+                "./img/pacorabanne/hombre/5.jpg",
+            ],
+            mujeres: [
+                "./img/pacorabanne/mujer/1.jpg",
+                "./img/pacorabanne/mujer/2.jpg",
+                "./img/pacorabanne/mujer/3.jpg",
+            ],
+            unixes: [
+            ]
+        }
+    },
+    {
+        id: "prada",
+        nombre: "Prada",
+        perfumes: {
+            hombres: [
+                "./img/prada/hombre/1.jpg",
+                "./img/prada/hombre/2.jpg",
+                "./img/prada/hombre/3.jpg",
+                "./img/prada/hombre/4.jpg",
+            ],
+            mujeres: [
+                "./img/prada/mujer/1.jpg",
+                "./img/prada/mujer/2.jpg",
+                "./img/prada/mujer/3.jpg",
+            ],
+            unixes: [
+            ]
+        }
+    },
+    {
+        id: "ralphlauren",
+        nombre: "Ralph Lauren",
+        perfumes: {
+            hombres: [
+                "./img/ralphlauren/hombre/1.jpg",
+                "./img/ralphlauren/hombre/2.jpg",
+                "./img/ralphlauren/hombre/3.jpg",
+            ],
+            mujeres: [
+            ],
+            unixes: [
+            ]
+        }
+    },
+    {
+        id: "tomford",
+        nombre: "Tom Ford",
+        perfumes: {
+            hombres: [
+                "./img/tomford/hombre/1.jpg",
+                "./img/tomford/hombre/2.jpg",
+                "./img/tomford/hombre/3.jpg",
+                "./img/tomford/hombre/4.jpg",
+                "./img/tomford/hombre/5.jpg",
+            ],
+            mujeres: [
+                "./img/tomford/mujer/1.jpg",
+                "./img/tomford/mujer/2.jpg",
+                "./img/tomford/mujer/3.jpg",
+            ],
+            unixes: [
+            ]
+        }
+    },
+    {
+        id: "valentino",
+        nombre: "Valentino",
+        perfumes: {
+            hombres: [
+                "./img/valentino/hombre/1.jpg",
+                "./img/valentino/hombre/2.jpg",
+                "./img/valentino/hombre/3.jpg",
+                "./img/valentino/hombre/4.jpg",
+            ],
+            mujeres: [
+                "./img/valentino/mujer/1.jpg",
+                "./img/valentino/mujer/2.jpg",
+                "./img/valentino/mujer/3.jpg",
+                "./img/valentino/mujer/4.jpg",
+            ],
+            unixes: [
+            ]
+        }
+    },
+    {
+        id: "versace",
+        nombre: "Versace",
+        perfumes: {
+            hombres: [
+                "./img/versace/hombre/1.jpg",
+                "./img/versace/hombre/2.jpg",
+                "./img/versace/hombre/3.jpg",
+                "./img/versace/hombre/4.jpg",
+            ],
+            mujeres: [
+                "./img/versace/mujer/1.jpg",
+                "./img/versace/mujer/2.jpg",
+                "./img/versace/mujer/3.jpg",
+            ],
+            unixes: [
+            ]
+        }
+    },
+    {
+        id: "viktorrolf",
+        nombre: "Viktor&Rolf",
+        perfumes: {
+            hombres: [
+                "./img/viktorrolf/hombre/1.jpg",
+                "./img/viktorrolf/hombre/2.jpg",
+                "./img/viktorrolf/hombre/3.jpg",
+            ],
+            mujeres: [
+            ],
+            unixes: [
+            ]
+        }
+    },
+    {
+        id: "yvessaintlaurent",
+        nombre: "Yves Saint Laurent",
+        perfumes: {
+            hombres: [
+                "./img/yvessaintlaurent/hombre/1.jpg",
+                "./img/yvessaintlaurent/hombre/2.jpg",
+                "./img/yvessaintlaurent/hombre/3.jpg",
+                "./img/yvessaintlaurent/hombre/4.jpg",
+                "./img/yvessaintlaurent/hombre/5.jpg",
+            ],
+            mujeres: [
+                "./img/yvessaintlaurent/mujer/1.jpg",
+                "./img/yvessaintlaurent/mujer/2.jpg",
+                "./img/yvessaintlaurent/mujer/3.jpg",
+                "./img/yvessaintlaurent/mujer/4.jpg",
+                "./img/yvessaintlaurent/mujer/5.jpg",
+            ],
+            unixes: [
+            ]
+        }
+    },
+    {
+        id: "creed",
+        nombre: "Creed",
+        perfumes: {
+            hombres: [
+            ],
+            mujeres: [
+            ],
+            unixes: [
+                "./img/creed/hombre/1.jpg",
+                "./img/creed/hombre/2.jpg",
+                "./img/creed/hombre/3.jpg",
+                "./img/creed/hombre/4.jpg",
+            ]
+        }
+    },
+    {
+        id: "initio",
+        nombre: "Initio",
+        perfumes: {
+            hombres: [
+            ],
+            mujeres: [
+            ],
+            unixes: [
+                "./img/initio/hombre/1.jpg",
+                "./img/initio/hombre/2.jpg",
+            ]
+        }
+    },
+    {
+        id: "lelabo",
+        nombre: "Le Labo",
+        perfumes: {
+            hombres: [
+            ],
+            mujeres: [
+            ],
+            unixes: [
+                "./img/lelabo/hombre/1.jpg",
+                "./img/lelabo/hombre/2.jpg",
+                "./img/lelabo/hombre/3.jpg",
+            ]
+        }
+    },
+    {
+        id: "maisonfranciskurkdjian",
+        nombre: "Maison Francis Kurkdjian",
+        perfumes: {
+            hombres: [
+            ],
+            mujeres: [
+            ],
+            unixes: [
+                "./img/maisonfranciskurkdjian/hombre/1.jpg",
+                "./img/maisonfranciskurkdjian/hombre/2.jpg",
+            ]
+        }
+    },
+    {
+        id: "maisonmargiela",
+        nombre: "Maison Margiela",
+        perfumes: {
+            hombres: [
+            ],
+            mujeres: [
+            ],
+            unixes: [
+                "./img/maisonmargiela/hombre/1.jpg",
+                "./img/maisonmargiela/hombre/2.jpg",
+                "./img/maisonmargiela/hombre/3.jpg",
+                "./img/maisonmargiela/hombre/4.jpg",
+            ]
+        }
+    },
+    {
+        id: "mancera",
+        nombre: "Mancera",
+        perfumes: {
+            hombres: [
+            ],
+            mujeres: [
+            ],
+            unixes: [
+                "./img/mancera/hombre/1.jpg",
+                "./img/mancera/hombre/2.jpg",
+                "./img/mancera/hombre/3.jpg",
+                "./img/mancera/hombre/4.jpg",
+                "./img/mancera/hombre/5.jpg",
+            ]
+        }
+    },
+    {
+        id: "montale",
+        nombre: "Montale",
+        perfumes: {
+            hombres: [
+            ],
+            mujeres: [
+            ],
+            unixes: [
+                "./img/montale/hombre/1.jpg",
+                "./img/montale/hombre/2.jpg",
+            ]
+        }
+    },
+    {
+        id: "nishane",
+        nombre: "Nishane",
+        perfumes: {
+            hombres: [
+            ],
+            mujeres: [
+            ],
+            unixes: [
+                "./img/nishane/hombre/1.jpg",
+                "./img/nishane/hombre/2.jpg",
+            ]
+        }
+    },
+    {
+        id: "ortoparisi",
+        nombre: "Orto Parisi",
+        perfumes: {
+            hombres: [
+            ],
+            mujeres: [
+            ],
+            unixes: [
+                "./img/ortoparisi/hombre/1.jpg",
+            ]
+        }
+    },
+    {
+        id: "rojadove",
+        nombre: "Roja Dove",
+        perfumes: {
+            hombres: [
+            ],
+            mujeres: [
+            ],
+            unixes: [
+                "./img/rojadove/hombre/1.jpg",
+            ]
+        }
+    },
+    {
+        id: "shl777",
+        nombre: "SHL 777",
+        perfumes: {
+            hombres: [
+            ],
+            mujeres: [
+            ],
+            unixes: [
+                "./img/shl777/hombre/1.jpg",
+            ]
+        }
+    },
+    {
+        id: "xerjoff",
+        nombre: "Xerjoff",
+        perfumes: {
+            hombres: [
+            ],
+            mujeres: [
+            ],
+            unixes: [
+                "./img/xerjoff/hombre/1.jpg",
+                "./img/xerjoff/hombre/2.jpg",
+            ]
+        }
+    },
 ];
 
 export { marcasData };
