@@ -942,6 +942,56 @@ const marcasData = [
             ]
         }
     },
+    {
+        id: "marly",
+        nombre: "Parfums de Marly",
+        perfumes: {
+            hombres: [
+            ],
+            mujeres: [
+            ],
+            unixes: [
+                "./img/marly/hombre/1.jpg",
+                "./img/marly/hombre/2.jpg",
+                "./img/marly/hombre/3.jpg",
+                "./img/marly/hombre/4.jpg",
+                "./img/marly/hombre/5.jpg",
+            ]
+        }
+    },
+    {
+        id: "ariana",
+        nombre: "Xerjoff",
+        perfumes: {
+            hombres: [
+            ],
+            mujeres: [
+                "./img/ariana/mujer/1.jpg",
+                "./img/ariana/mujer/2.jpg",
+                "./img/ariana/mujer/3.jpg",
+                "./img/ariana/mujer/4.jpg",
+                "./img/ariana/mujer/5.jpg",
+            ],
+            unixes: [
+            ]
+        }
+    },
+    {
+        id: "lancome",
+        nombre: "Lancome",
+        perfumes: {
+            hombres: [
+            ],
+            mujeres: [
+                "./img/lancome/mujer/1.jpg",
+                "./img/lancome/mujer/2.jpg",
+                "./img/lancome/mujer/3.jpg",
+                "./img/lancome/mujer/4.jpg",
+            ],
+            unixes: [
+            ]
+        }
+    },
 ];
 
 export { marcasData };
