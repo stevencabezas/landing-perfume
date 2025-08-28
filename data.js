@@ -983,10 +983,10 @@ const marcasData = [
             hombres: [
             ],
             mujeres: [
-                "./img/lancome/mujer/1.jpg",
-                "./img/lancome/mujer/2.jpg",
-                "./img/lancome/mujer/3.jpg",
-                "./img/lancome/mujer/4.jpg",
+                "./img/Lancome/mujer/1.jpg",
+                "./img/Lancome/mujer/2.jpg",
+                "./img/Lancome/mujer/3.jpg",
+                "./img/Lancome/mujer/4.jpg",
             ],
             unixes: [
             ]
