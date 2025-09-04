@@ -5,16 +5,16 @@ const marcasData = [
         nombre: "Afnan",
         perfumes: {
             hombres: [
-                "./img/afnan/hombre/1.jpg",
-                "./img/afnan/hombre/2.jpg",
-                "./img/afnan/hombre/3.jpg",
-                "./img/afnan/hombre/4.jpg",
-                "./img/afnan/hombre/5.jpg",
+                { src: "./img/afnan/hombre/1.jpg", nombre: "9 PM HOMBRE 100ML EDP", precio: 20000},
+                { src: "./img/afnan/hombre/2.jpg", nombre: "9 AM DIVE UNISEX 100ML EDP", precio: 22000},
+                { src: "./img/afnan/hombre/3.jpg", nombre: "9 PM REBEL HOMBRE 100ML EDP", precio: 26000},
+                { src: "./img/afnan/hombre/4.jpg", nombre: "TURATHI UNISEX HOMBRE 90ML", precio: 30000},
+                { src: "./img/afnan/hombre/5.jpg", nombre: "SUPREMACY NOT ONLY INTENSE HOMBRE 100ML EDP", precio: 23000}
             ],
             mujeres: [
-                "./img/afnan/mujer/1.jpg",
-                "./img/afnan/mujer/2.jpg",
-                "./img/afnan/mujer/3.jpg",
+                { src: "./img/afnan/mujer/1.jpg", nombre: "9 AM UNISEX DORADO 100ML EDP", precio: 23000},
+                { src: "./img/afnan/mujer/2.jpg", nombre: "9 AM MUJER 100ML EDP", precio: 22000},
+                { src: "./img/afnan/mujer/3.jpg", nombre: "9 PM MUJER 100ML EDP", precio: 28000}
             ],
             unixes: [
             ]
@@ -29,11 +29,11 @@ const marcasData = [
             mujeres: [
             ],
             unixes: [
-                "./img/alharamain/hombre/1.jpg",
-                "./img/alharamain/hombre/2.jpg",
-                "./img/alharamain/hombre/3.jpg",
-                "./img/alharamain/hombre/4.jpg",
-                "./img/alharamain/hombre/5.jpg",
+                { src: "./img/alharamain/hombre/1.jpg", nombre: "AMBER OUD UNISEX 120ML EDP", precio: 35000},
+                { src: "./img/alharamain/hombre/2.jpg", nombre: "AMBER OUD AQUA DUBAI UNISEX 100ML EDP", precio: 41000},
+                { src: "./img/alharamain/hombre/3.jpg", nombre: "Détour Noir", precio: 30000},
+                { src: "./img/alharamain/hombre/4.jpg", nombre: "AMBER OUD CARBON HOMBRE 60ML EDP", precio: 39000},
+                { src: "./img/alharamain/hombre/5.jpg", nombre: "AMBER OUD ULTRA VIOLET UNISEX 60ML EDP", precio: 40000}
             ]
         }
     },
@@ -42,19 +42,19 @@ const marcasData = [
         nombre: "Armaf",
         perfumes: {
             hombres: [
-                "./img/armaf/hombre/1.jpg",
-                "./img/armaf/hombre/2.jpg",
-                "./img/armaf/hombre/3.jpg",
-                "./img/armaf/hombre/4.jpg",
-                "./img/armaf/hombre/5.jpg",
-                "./img/armaf/hombre/6.jpg",
-                "./img/armaf/hombre/7.jpg",
+                { src: "./img/armaf/hombre/1.jpg", nombre: "CLUB DE NUIT INTENSE HOMBRE 105ML EDT", precio: 23000},
+                { src: "./img/armaf/hombre/2.jpg", nombre: "ODYSSEY MANDARIN SKY HOMBRE 100ML EDP", precio: 20000},
+                { src: "./img/armaf/hombre/3.jpg", nombre: "ODYSSEY WHITE UNISEX 100ML EDP", precio: 22000},
+                { src: "./img/armaf/hombre/4.jpg", nombre: "ODYSSEY MANDARIN SKY ELIXIR HOMBRE 100ML EDP", precio: 31000},
+                { src: "./img/armaf/hombre/5.jpg", nombre: "ODYSSEY ARTISTO RED EDITION UNISEX 100ML EDP", precio: 26000},
+                { src: "./img/armaf/hombre/6.jpg", nombre: "CLUB DE NUIT URBAN ELIXIR HOMBRE 105ML EDP", precio: 27000},
+                { src: "./img/armaf/hombre/7.jpg", nombre: "ODYSSEY DUBAI CHOCOLAT UNISEX 100ML EDP", precio: 21000}
             ],
             mujeres: [
-                "./img/armaf/mujer/1.jpg",
-                "./img/armaf/mujer/2.jpg",
-                "./img/armaf/mujer/3.jpg",
-                "./img/armaf/mujer/4.jpg",
+                { src: "./img/armaf/mujer/1.jpg", nombre: "CLUB DE NUIT MUJER 105ML EDP", precio: 21000},
+                { src: "./img/armaf/mujer/2.jpg", nombre: "ODYSSEY CANDEE MUJER 100ML EDP", precio: 22000},
+                { src: "./img/armaf/mujer/3.jpg", nombre: "CLUB DE NUIT OUD DE LUJO UNISEX 100ML EDP", precio: 35000},
+                { src: "./img/armaf/mujer/4.jpg", nombre: "CLUB DE NUIT IMPERIALE UNISEX 105ML EDP", precio: 36000}
             ],
             unixes: [
             ]
@@ -65,16 +65,16 @@ const marcasData = [
         nombre: "Bharara",
         perfumes: {
             hombres: [
-                "./img/bharara/hombre/1.jpg",
-                "./img/bharara/hombre/2.jpg",
-                "./img/bharara/hombre/3.jpg",
+                { src: "./img/bharara/hombre/1.jpg", nombre: "KING UNISEX 100ML EDP", precio: 35000},
+                { src: "./img/bharara/hombre/2.jpg", nombre: "ONIX UNISEX 100ML EDP", precio: 41000},
+                { src: "./img/bharara/hombre/3.jpg", nombre: "VIKING BEIRUT HOMBRE 100ML EDP", precio: 41000},
                 "./img/bharara/hombre/4.jpg",
                 "./img/bharara/hombre/5.jpg",
             ],
             mujeres: [
-                "./img/bharara/mujer/1.jpg",
-                "./img/bharara/mujer/2.jpg",
-                "./img/bharara/mujer/3.jpg",
+                { src: "./img/bharara/mujer/1.jpg", nombre: "NICHE UNISEX 100ML EDP", precio: 27000},
+                { src: "./img/bharara/mujer/2.jpg", nombre: "NICHE MUJER 100ML EDP", precio: 40000},
+                { src: "./img/bharara/mujer/3.jpg", nombre: "ROSE MUJER 100ML EDP", precio: 41000},
             ],
             unixes: [
             ]
@@ -85,9 +85,9 @@ const marcasData = [
         nombre: "Dumont",
         perfumes: {
             hombres: [
-                "./img/dumont/hombre/1.jpg",
-                "./img/dumont/hombre/2.jpg",
-                "./img/dumont/hombre/3.jpg",
+                { src: "./img/dumont/hombre/1.jpg", nombre: "NITRO RED INTENSELY HOMBRE 100ML EDP", precio: 35000},
+                { src: "./img/dumont/hombre/2.jpg", nombre: "NITRO HOMBRE 100ML EDP DUMONT", precio: 24000},
+                { src: "./img/dumont/hombre/3.jpg", nombre: "NITRO GREEN HOMBRE 100ML EDP", precio: 24000},
             ],
             mujeres: [
             ],
@@ -100,10 +100,10 @@ const marcasData = [
         nombre: "French Avenue",
         perfumes: {
             hombres: [
-                "./img/frenchavenue/hombre/1.jpg",
-                "./img/frenchavenue/hombre/2.jpg",
-                "./img/frenchavenue/hombre/3.jpg",
-                "./img/frenchavenue/hombre/4.jpg",
+                { src: "./img/frenchavenue/hombre/1.jpg", nombre: "AETHER UNISEX 100ML EDP", precio: 32000},
+                { src: "./img/frenchavenue/hombre/2.jpg", nombre: "LIQUID BRUN HOMBRE 100ML EDP", precio: 29000},
+                { src: "./img/frenchavenue/hombre/3.jpg", nombre: "AZZURE AOUD HOMBRE 100ML EDP", precio: 32000},
+                { src: "./img/frenchavenue/hombre/4.jpg", nombre: "SPECTRE WRAITH HOMBRE 100ML EDP", precio: 30000},
             ],
             mujeres: [
             ],
@@ -113,12 +113,12 @@ const marcasData = [
     },
     {
         id: "jomilano",
-        nombre: "French Avenue",
+        nombre: "Jo Milano",
         perfumes: {
             hombres: [
-                "./img/jomilano/hombre/1.jpg",
-                "./img/jomilano/hombre/2.jpg",
-                "./img/jomilano/hombre/3.jpg",
+                { src: "./img/jomilano/hombre/1.jpg", nombre: "GAME OF SPADES FULL HOUSE 100ML PERFUME UNISEX", precio: 48000},
+                { src: "./img/jomilano/hombre/2.jpg", nombre: "GAME OF SPADES WILDCARD", precio: 48000},
+                { src: "./img/jomilano/hombre/3.jpg", nombre: "GAME OF SPADES BOSTON 100ML PERFUME UNISEX", precio: 48000},
             ],
             mujeres: [
             ],
@@ -131,19 +131,19 @@ const marcasData = [
         nombre: "Lattafa",
         perfumes: {
             hombres: [
-                "./img/lattafa/hombre/1.jpg",
-                "./img/lattafa/hombre/2.jpg",
-                "./img/lattafa/hombre/3.jpg",
-                "./img/lattafa/hombre/4.jpg",
-                "./img/lattafa/hombre/5.jpg",
-                "./img/lattafa/hombre/6.jpg",
-                "./img/lattafa/hombre/7.jpg",
+                { src: "./img/lattafa/hombre/1.jpg", nombre: "KHAMRAH UNISEX 100ML EDP", precio: 19000},
+                { src: "./img/lattafa/hombre/2.jpg", nombre: "KHAMRAH QAHWA UNISEX 100ML EDP", precio: 20000},
+                { src: "./img/lattafa/hombre/3.jpg", nombre: "FAKHAR BLACK HOMBRE 100ML EDP", precio: 21000},
+                { src: "./img/lattafa/hombre/4.jpg", nombre: "HONOR Y GLORY UNISEX 100ML EDP", precio: 21000},
+                { src: "./img/lattafa/hombre/5.jpg", nombre: "ASAD BOURBON HOMBRE 100ML EDP", precio: 21000},
+                { src: "./img/lattafa/hombre/6.jpg", nombre: "SHAHEEN GOLD UNISEX 100ML EDP", precio: 22000},
+                { src: "./img/lattafa/hombre/7.jpg", nombre: "KHAMRAH DUKHAN UNISEX 100ML EDP", precio: 30000},
             ],
             mujeres: [
-                "./img/lattafa/mujer/1.jpg",
-                "./img/lattafa/mujer/2.jpg",
-                "./img/lattafa/mujer/3.jpg",
-                "./img/lattafa/mujer/4.jpg",
+                { src: "./img/lattafa/mujer/1.jpg", nombre: "YARA MUJER 100ML EDP", precio: 19000},
+                { src: "./img/lattafa/mujer/2.jpg", nombre: "ECLAIRE MUJER 100ML EDP", precio: 26000},
+                { src: "./img/lattafa/mujer/3.jpg", nombre: "YARA CANDY MUJER 100ML EDP", precio: 19000},
+                { src: "./img/lattafa/mujer/4.jpg", nombre: "PERRY ELLIS SWEET LOVE MUJER 100ML EDP", precio: 20000},
             ],
             unixes: [
             ]
