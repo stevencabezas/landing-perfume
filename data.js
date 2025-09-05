@@ -68,8 +68,8 @@ const marcasData = [
                 { src: "./img/bharara/hombre/1.jpg", nombre: "KING UNISEX 100ML EDP", precio: 35000},
                 { src: "./img/bharara/hombre/2.jpg", nombre: "ONIX UNISEX 100ML EDP", precio: 41000},
                 { src: "./img/bharara/hombre/3.jpg", nombre: "VIKING BEIRUT HOMBRE 100ML EDP", precio: 41000},
-                "./img/bharara/hombre/4.jpg",
-                "./img/bharara/hombre/5.jpg",
+                { src: "./img/bharara/hombre/4.jpg", nombre: "CHOCOLATE UNISEX 100ML EDP", precio: 42000},
+                { src: "./img/bharara/hombre/5.jpg", nombre: "VIKING KASHMIRE HOMBRE 100ML EDP", precio: 45000},
             ],
             mujeres: [
                 { src: "./img/bharara/mujer/1.jpg", nombre: "NICHE UNISEX 100ML EDP", precio: 27000},
@@ -154,15 +154,15 @@ const marcasData = [
         nombre: "Maison Alhambra",
         perfumes: {
             hombres: [
-                "./img/maisonalhambra/hombre/1.jpg",
-                "./img/maisonalhambra/hombre/2.jpg",
-                "./img/maisonalhambra/hombre/3.jpg",
-                "./img/maisonalhambra/hombre/4.jpg",
+                { src: "./img/maisonalhambra/hombre/1.jpg", nombre: "JEAN LOEWE INMORTEL 100ML EDP", precio: 24000},
+                { src: "./img/maisonalhambra/hombre/2.jpg", nombre: "JEAN LOWE AZURE HOMBRE 100ML EDP", precio: 27000},
+                { src: "./img/maisonalhambra/hombre/3.jpg", nombre: "Tobacco Touch (Smoky Touch)", precio: 25000},
+                { src: "./img/maisonalhambra/hombre/4.jpg", nombre: "JEAN LOWE VIBE UNISEX 100ML EDP", precio: 24000},
             ],
             mujeres: [
-                "./img/maisonalhambra/mujer/1.jpg",
-                "./img/maisonalhambra/mujer/2.jpg",
-                "./img/maisonalhambra/mujer/3.jpg",
+                { src: "./img/maisonalhambra/mujer/1.jpg", nombre: "DELILAH MUJER 100ML EDP", precio: 20000},
+                { src: "./img/maisonalhambra/mujer/2.jpg", nombre: "Lovely Chèrie (Forbidden Love)", precio: 29500},
+                { src: "./img/maisonalhambra/mujer/3.jpg", nombre: "Bright Peach", precio: 29500},
             ],
             unixes: [
             ]
@@ -177,11 +177,11 @@ const marcasData = [
             mujeres: [
             ],
             unixes: [
-                "./img/orientica/hombre/1.jpg",
-                "./img/orientica/hombre/2.jpg",
-                "./img/orientica/hombre/3.jpg",
-                "./img/orientica/hombre/4.jpg",
-                "./img/orientica/hombre/5.jpg",
+                { src: "./img/orientica/hombre/1.jpg", nombre: "ROYAL AMBER UNISEX 80ML EDP", precio: 44000},
+                { src: "./img/orientica/hombre/2.jpg", nombre: "AMBER NOIR UNISEX PERFUME 80ML", precio: 40000},
+                { src: "./img/orientica/hombre/3.jpg", nombre: "ROYAL BLEU HOMBRE 80ML EDP", precio: 42000},
+                { src: "./img/orientica/hombre/4.jpg", nombre: "AMBER ROUGE UNISEX 80ML EDP", precio: 44000},
+                { src: "./img/orientica/hombre/5.jpg", nombre: "AZURE FANTASY UNISEX 80ML EDP", precio: 53000},
             ]
         }
     },
@@ -194,12 +194,12 @@ const marcasData = [
             mujeres: [
             ],
             unixes: [
-                "./img/rasasi/hombre/1.jpg",
-                "./img/rasasi/hombre/2.jpg",
-                "./img/rasasi/hombre/3.jpg",
-                "./img/rasasi/hombre/4.jpg",
-                "./img/rasasi/hombre/5.jpg",
-                "./img/rasasi/hombre/6.jpg",
+                { src: "./img/rasasi/hombre/1.jpg", nombre: "HAWAS HOMBRE 100ML EDP", precio: 20000},
+                { src: "./img/rasasi/hombre/2.jpg", nombre: "HAWAS ICED HOMBRE 100ML EDP", precio: 25000},
+                { src: "./img/rasasi/hombre/3.jpg", nombre: "HAWAS BLACK HOMBRE 100ML EDP", precio: 30000},
+                { src: "./img/rasasi/hombre/4.jpg", nombre: "HAWAS FIRE HOMBRE 100ML EDP", precio: 32000},
+                { src: "./img/rasasi/hombre/5.jpg", nombre: "HAWAS TROPICAL HOMBRE 100ML EDP", precio: 40000},
+                { src: "./img/rasasi/hombre/6.jpg", nombre: "HAWAS ELIXIR HOMBRE 100ML EDP", precio: 26000},
             ]
         }
     },
@@ -208,13 +208,13 @@ const marcasData = [
         nombre: "Rave",
         perfumes: {
             hombres: [
-                "./img/rave/hombre/1.jpg",
+                { src: "./img/rave/hombre/1.jpg", nombre: "NOW NEGRO HOMBRE 100ML EDP", precio: 20000},
             ],
             mujeres: [
             ],
             unixes: [
-                "./img/rave/hombre/2.jpg",
-                "./img/rave/hombre/3.jpg",
+                { src: "./img/rave/hombre/2.jpg", nombre: "NOW WHITE UNISEX 100ML EDP", precio: 21000},
+                { src: "./img/rave/hombre/3.jpg", nombre: "NOW ROUGE MUJER 100ML EDP", precio: 23000},
             ]
         }
     },
@@ -223,7 +223,7 @@ const marcasData = [
         nombre: "Antonio Banderas",
         perfumes: {
             hombres: [
-                "./img/antoniobanderas/hombre/1.jpg",
+                { src: "./img/antoniobanderas/hombre/1.jpg", nombre: "BLUE SEDUCTION HOMBRE 100ML EDT", precio: 19000},
             ],
             mujeres: [
             ],
@@ -236,11 +236,11 @@ const marcasData = [
         nombre: "Azzaro",
         perfumes: {
             hombres: [
-                "./img/azzaro/hombre/1.jpg",
-                "./img/azzaro/hombre/2.jpg",
-                "./img/azzaro/hombre/3.jpg",
-                "./img/azzaro/hombre/4.jpg",
-                "./img/azzaro/hombre/5.jpg",
+                { src: "./img/azzaro/hombre/1.jpg", nombre: "THE MOST WANTED HOMBRE 100ML EDP", precio: 50000},
+                { src: "./img/azzaro/hombre/2.jpg", nombre: "THE MOST WANTED INTENSE HOMBRE 100ML EDP", precio: 53000},
+                { src: "./img/azzaro/hombre/3.jpg", nombre: "CHROME HOMBRE 100ML EDT", precio: 30000},
+                { src: "./img/azzaro/hombre/4.jpg", nombre: "WANTED FOREVER ELIXIR HOMBRE 100ML", precio: 70000},
+                { src: "./img/azzaro/hombre/5.jpg", nombre: "CHROME PERFUME HOMBRE 100ML", precio: 35000},
             ],
             mujeres: [
             ],
@@ -253,15 +253,15 @@ const marcasData = [
         nombre: "Burberry",
         perfumes: {
             hombres: [
-                "./img/burberry/hombre/1.jpg",
-                "./img/burberry/hombre/2.jpg",
-                "./img/burberry/hombre/3.jpg",
+                { src: "./img/burberry/hombre/1.jpg", nombre: "MR BURBERRY HOMBRE 100ML EDT", precio: 45000},
+                { src: "./img/burberry/hombre/2.jpg", nombre: "BURBERRY HERO HOMBRE 100ML EDT", precio: 55000},
+                { src: "./img/burberry/hombre/3.jpg", nombre: "BURBERRY HERO HOMBRE 100ML", precio: 57000},
             ],
             mujeres: [
-                "./img/burberry/mujer/1.jpg",
-                "./img/burberry/mujer/2.jpg",
-                "./img/burberry/mujer/3.jpg",
-                "./img/burberry/mujer/4.jpg",
+                { src: "./img/burberry/mujer/1.jpg", nombre: "HER BURBERRY MUJER 100ML EDP", precio: 55000},
+                { src: "./img/burberry/mujer/2.jpg", nombre: "HER BURBERRY ELIXIR MUJER 100ML EDP", precio: 70000},
+                { src: "./img/burberry/mujer/3.jpg", nombre: "BURBERRY GODDESS MUJER 100ML EDP", precio: 65000},
+                { src: "./img/burberry/mujer/4.jpg", nombre: "BURBERRY MUJER 100ML EDP", precio: 30000},
             ],
             unixes: [
             ]
@@ -961,16 +961,16 @@ const marcasData = [
     },
     {
         id: "ariana",
-        nombre: "Xerjoff",
+        nombre: "Ariana Grande",
         perfumes: {
             hombres: [
             ],
             mujeres: [
-                "./img/ariana/mujer/1.jpg",
-                "./img/ariana/mujer/2.jpg",
-                "./img/ariana/mujer/3.jpg",
-                "./img/ariana/mujer/4.jpg",
-                "./img/ariana/mujer/5.jpg",
+                { src: "./img/ariana/mujer/1.jpg", nombre: "CLOUD DE ARIANA GRANDE MUJER 100ML EDT", precio: 37000},
+                { src: "./img/ariana/mujer/2.jpg", nombre: "CLOUD 2,0 DE ARIANA GRANDE MUJER 100ML ED", precio: 35000},
+                { src: "./img/ariana/mujer/3.jpg", nombre: "CLOUD PINK MUJER 100ML EDP", precio: 39000},
+                { src: "./img/ariana/mujer/4.jpg", nombre: "THANK YOU NEXT MUJER 100ML EDT", precio: 30000},
+                { src: "./img/ariana/mujer/5.jpg", nombre: "SWEET LIKE CANDY MUJER 100ML EDT", precio: 30000},
             ],
             unixes: [
             ]
