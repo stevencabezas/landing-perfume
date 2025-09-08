@@ -272,15 +272,15 @@ const marcasData = [
         nombre: "Bvlgari",
         perfumes: {
             hombres: [
-                "./img/bvlgari/hombre/1.jpg",
-                "./img/bvlgari/hombre/2.jpg",
-                "./img/bvlgari/hombre/3.jpg",
-                "./img/bvlgari/hombre/4.jpg",
+                { src: "./img/bvlgari/hombre/1.jpg", nombre: "MAN IN BLACK HOMBRE 100ML EDP", precio: 60000},
+                { src: "./img/bvlgari/hombre/2.jpg", nombre: "RAIN ESSENCE HOMBRE 100ML EDP", precio: 50000},
+                { src: "./img/bvlgari/hombre/3.jpg", nombre: "WOOD ESSENCE HOMBRE 100ML EDP", precio: 60000},
+                { src: "./img/bvlgari/hombre/4.jpg", nombre: "AQVA MARINE HOMBRE 100ML EDT", precio: 50000},
             ],
             mujeres: [
-                "./img/bvlgari/mujer/1.jpg",
-                "./img/bvlgari/mujer/2.jpg",
-                "./img/bvlgari/mujer/3.jpg",
+                { src: "./img/bvlgari/mujer/1.jpg", nombre: "OMNIA AMETHYSTE DE BVLGARI MUJER 100ML EDT", precio: 58000},
+                { src: "./img/bvlgari/mujer/2.jpg", nombre: "OMNIA CRYSTALLINE DE BVLGARI MUJER 100ML EDT", precio: 58000},
+                { src: "./img/bvlgari/mujer/3.jpg", nombre: "OMNIA CORAL DE BVLGARI MUJER 100ML EDT", precio: 60000},
             ],
             unixes: [
             ]
@@ -291,18 +291,19 @@ const marcasData = [
         nombre: "Carolina Herrera",
         perfumes: {
             hombres: [
-                "./img/carolinaherrera/hombre/1.jpg",
-                "./img/carolinaherrera/hombre/2.jpg",
-                "./img/carolinaherrera/hombre/3.jpg",
-                "./img/carolinaherrera/hombre/4.jpg",
-                "./img/carolinaherrera/hombre/5.jpg",
+                { src: "./img/carolinaherrera/hombre/1.jpg", nombre: "212 VIP BLACK HOMBRE 100ML EDP", precio: 50000},
+                { src: "./img/carolinaherrera/hombre/2.jpg", nombre: "212 VIP BLACK ELIXIR HOMBRE 100ML EDP", precio: 58000},
+                { src: "./img/carolinaherrera/hombre/3.jpg", nombre: "BAD BOY COBALT ELIXIR HOMBRE 100ML EDT", precio: 60000},
+                { src: "./img/carolinaherrera/hombre/4.jpg", nombre: "CH HOMBRE 100ML EDT", precio: 50000},
+                { src: "./img/carolinaherrera/hombre/5.jpg", nombre: "212 HOMBRE 100ML EDT", precio: 45000},
             ],
             mujeres: [
-                "./img/carolinaherrera/mujer/1.jpg",
-                "./img/carolinaherrera/mujer/2.jpg",
-                "./img/carolinaherrera/mujer/3.jpg",
-                "./img/carolinaherrera/mujer/4.jpg",
-                "./img/carolinaherrera/mujer/5.jpg",
+                { src: "./img/carolinaherrera/mujer/1.jpg", nombre: "GOOD GIRL VERY GLAM MUJER 80ML EDP", precio: 65000},
+                { src: "./img/carolinaherrera/mujer/2.jpg", nombre: "GOOD GIRL VERY MUJER 80ML EDP", precio: 65000},
+                { src: "./img/carolinaherrera/mujer/3.jpg", nombre: "GOOD GIRL LEGERE MUJER 80ML EDP", precio: 65000},
+                { src: "./img/carolinaherrera/mujer/4.jpg", nombre: "Good Girl Suprême", precio: 65000},
+                { src: "./img/carolinaherrera/mujer/5.jpg", nombre: "212 SEXY MUJER MUJER 100ML EDT", precio: 52000},
+                { src: "./img/carolinaherrera/mujer/6.jpg", nombre: "LA BOMBA MUJER 80ML EDP", precio: 85000},
             ],
             unixes: [
             ]
@@ -331,7 +332,7 @@ const marcasData = [
         nombre: "Clinique",
         perfumes: {
             hombres: [
-                "./img/clinique/hombre/1.jpg",
+                { src: "./img/clinique/hombre/1.jpg", nombre: "HAPPY DE CLINIQUE HOMBRE 100ML EDT", precio: 25000},
             ],
             mujeres: [
             ],
@@ -344,18 +345,18 @@ const marcasData = [
         nombre: "Dior",
         perfumes: {
             hombres: [
-                "./img/dior/hombre/1.jpg",
-                "./img/dior/hombre/2.jpg",
-                "./img/dior/hombre/3.jpg",
-                "./img/dior/hombre/4.jpg",
-                "./img/dior/hombre/5.jpg",
-                "./img/dior/hombre/6.jpg",
+                { src: "./img/dior/hombre/1.jpg", nombre: "SAUVAGE DE DIOR HOMBRE 100ML EDP", precio: 78000},
+                { src: "./img/dior/hombre/2.jpg", nombre: "SAUVAGE DE DIOR HOMBRE 100ML EDT", precio: 64000},
+                { src: "./img/dior/hombre/3.jpg", nombre: "DIOR HOMME INTENSE HOMBRE 100ML EDP", precio: 79000},
+                { src: "./img/dior/hombre/4.jpg", nombre: "SAUVAGE ELIXIR DE DIOR HOMBRE 100ML EDT", precio: 120000},
+                { src: "./img/dior/hombre/5.jpg", nombre: "FAHRENHEIT DE DIOR HOMBRE 100ML EDT", precio: 60000},
+                { src: "./img/dior/hombre/6.jpg", nombre: "SAUVAGE PERFUM DE DIOR HOMBRE 100ML", precio: 87000},
             ],
             mujeres: [
-                "./img/dior/mujer/1.jpg",
-                "./img/dior/mujer/2.jpg",
-                "./img/dior/mujer/3.jpg",
-                "./img/dior/mujer/4.jpg",
+                { src: "./img/dior/mujer/1.jpg", nombre: "MISS DIOR MUJER 100ML EDP", precio: 85000},
+                { src: "./img/dior/mujer/2.jpg", nombre: "MISS DIOR BLOOMING BOUQUET MUJER 100ML EDT", precio: 75000},
+                { src: "./img/dior/mujer/3.jpg", nombre: "MISS DIOR ROSE N ROSES MUJER 100ML EDT", precio: 65000},
+                { src: "./img/dior/mujer/4.jpg", nombre: "POISON GIRL", precio: 80000},
             ],
             unixes: [
             ]
@@ -366,18 +367,18 @@ const marcasData = [
         nombre: "Dolce&Gabbana",
         perfumes: {
             hombres: [
-                "./img/dolcegabbana/hombre/1.jpg",
-                "./img/dolcegabbana/hombre/2.jpg",
-                "./img/dolcegabbana/hombre/3.jpg",
-                "./img/dolcegabbana/hombre/4.jpg",
-                "./img/dolcegabbana/hombre/5.jpg",
+                { src: "./img/dolcegabbana/hombre/1.jpg", nombre: "THE ONE HOMBRE 100ML EDP", precio: 40000},
+                { src: "./img/dolcegabbana/hombre/2.jpg", nombre: "LIGHT BLUE INTENSE HOMBRE 100ML EDT", precio: 40000},
+                { src: "./img/dolcegabbana/hombre/3.jpg", nombre: "DOLCE K HOMBRE 100ML EDT", precio: 38000},
+                { src: "./img/dolcegabbana/hombre/4.jpg", nombre: "LIGHT BLUE SUMMER VIBES HOMBRE 125ML EDT", precio: 38000},
+                { src: "./img/dolcegabbana/hombre/5.jpg", nombre: "DOLCE K HOMBRE 100ML EDP", precio: 41000},
             ],
             mujeres: [
-                "./img/dolcegabbana/mujer/1.jpg",
-                "./img/dolcegabbana/mujer/2.jpg",
-                "./img/dolcegabbana/mujer/3.jpg",
-                "./img/dolcegabbana/mujer/4.jpg",
-                "./img/dolcegabbana/mujer/5.jpg",
+                { src: "./img/dolcegabbana/mujer/1.jpg", nombre: "LIGHT BLUE MUJER 100ML EDT", precio: 40000},
+                { src: "./img/dolcegabbana/mujer/2.jpg", nombre: "EMPERATRIZ MUJER 100ML EDT", precio: 30000},
+                { src: "./img/dolcegabbana/mujer/3.jpg", nombre: "LIGHT BLUE INTENSE MUJER 100ML EDT", precio: 45000},
+                { src: "./img/dolcegabbana/mujer/4.jpg", nombre: "DEVOTION MUJER 100ML EDP", precio: 43000},
+                { src: "./img/dolcegabbana/mujer/5.jpg", nombre: "THE ONE MUJER 75ML EDP", precio: 40000},
             ],
             unixes: [
             ]
@@ -388,19 +389,18 @@ const marcasData = [
         nombre: "Giorgio Armani",
         perfumes: {
             hombres: [
-                "./img/giorgioarmani/hombre/1.jpg",
-                "./img/giorgioarmani/hombre/2.jpg",
-                "./img/giorgioarmani/hombre/3.jpg",
-                "./img/giorgioarmani/hombre/4.jpg",
-                "./img/giorgioarmani/hombre/5.jpg",
-                "./img/giorgioarmani/hombre/6.jpg",
-                "./img/giorgioarmani/hombre/7.jpg",
+                { src: "./img/giorgioarmani/hombre/1.jpg", nombre: "STRONGER WITH YOU INTENSELY HOMBRE 100ML EDT", precio: 58000},
+                { src: "./img/giorgioarmani/hombre/2.jpg", nombre: "GIO PERFUM HOMBRE 100ML", precio: 70000},
+                { src: "./img/giorgioarmani/hombre/3.jpg", nombre: "GIO PROFONDO PERFUM HOMBRE 100ML", precio: 72000},
+                { src: "./img/giorgioarmani/hombre/4.jpg", nombre: "STRONGER WITH YOU HOMBRE 100ML EDT", precio: 50000},
+                { src: "./img/giorgioarmani/hombre/5.jpg", nombre: "CODE HOMBRE 75ML EDT", precio: 55000},
+                { src: "./img/giorgioarmani/hombre/6.jpg", nombre: "GIO HOMBRE 100ML EDT", precio: 50000},
+                { src: "./img/giorgioarmani/hombre/7.jpg", nombre: "STRONGER WITH YOU ABSOLUTELY HOMBRE 100ML EDP", precio: 68000},
             ],
             mujeres: [
-                "./img/giorgioarmani/mujer/1.jpg",
-                "./img/giorgioarmani/mujer/2.jpg",
-                "./img/giorgioarmani/mujer/3.jpg",
-                "./img/giorgioarmani/mujer/4.jpg",
+                { src: "./img/giorgioarmani/mujer/1.jpg", nombre: "MY WAY DE ARMANI MUJER 90ML EDP", precio: 67000},
+                { src: "./img/giorgioarmani/mujer/2.jpg", nombre: "SI PASSIONE MUJER 100ML EDP", precio: 60000},
+                { src: "./img/giorgioarmani/mujer/3.jpg", nombre: "BECAUSE IT S YOU MUJER 100ML EDP", precio: 67000},
             ],
             unixes: [
             ]
@@ -411,13 +411,13 @@ const marcasData = [
         nombre: "Givenchy",
         perfumes: {
             hombres: [
-                "./img/givenchy/hombre/1.jpg",
-                "./img/givenchy/hombre/2.jpg",
-                "./img/givenchy/hombre/3.jpg",
+                { src: "./img/givenchy/hombre/1.jpg", nombre: "GENTLEMAN EAU DE PARFUM RESERVE PRIVÉE", precio: 65000},
+                { src: "./img/givenchy/hombre/2.jpg", nombre: "GENTLEMAN SOCIETY HOMBRE 100ML EDP", precio: 55000},
+                { src: "./img/givenchy/hombre/3.jpg", nombre: "PI HOMBRE 100ML EDT GIVENCHY", precio: 40000},
             ],
             mujeres: [
-                "./img/givenchy/mujer/1.jpg",
-                "./img/givenchy/mujer/2.jpg",
+                { src: "./img/givenchy/mujer/1.jpg", nombre: "IRRESISTIBLE ROSE VELVET MUJER 80ML EDP", precio: 57000},
+                { src: "./img/givenchy/mujer/2.jpg", nombre: "IRRESISTIBLE MUJER 80ML EDP", precio: 57000},
             ],
             unixes: [
             ]
@@ -428,9 +428,9 @@ const marcasData = [
         nombre: "Guerlain",
         perfumes: {
             hombres: [
-                "./img/guerlain/hombre/1.jpg",
-                "./img/guerlain/hombre/2.jpg",
-                "./img/guerlain/hombre/3.jpg",
+                { src: "./img/guerlain/hombre/1.jpg", nombre: "L´ HOMME IDEAL INTENSE HOMBRE 100ML EDT", precio: 58000},
+                { src: "./img/guerlain/hombre/2.jpg", nombre: "L´ HOMME IDEAL HOMBRE 100ML EDT", precio: 47000},
+                { src: "./img/guerlain/hombre/3.jpg", nombre: "L’HOMME IDEAL COLOGNE", precio: 53000},
             ],
             mujeres: [
             ],
