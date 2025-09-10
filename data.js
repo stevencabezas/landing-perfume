@@ -443,14 +443,14 @@ const marcasData = [
         nombre: "Halloween",
         perfumes: {
             hombres: [
-                "./img/hallowen/hombre/1.jpg",
-                "./img/hallowen/hombre/2.jpg",
-                "./img/hallowen/hombre/3.jpg",
+                { src: "./img/hallowen/hombre/1.jpg", nombre: "HALLOWEEN MAN X DE JESUS DEL POZO HOMBRE 125ML EDT", precio: 24000},
+                { src: "./img/hallowen/hombre/2.jpg", nombre: "HALLOWEEN HEROE DE JESUS DEL POZO HOMBRE 125ML EDT", precio: 25000},
+                { src: "./img/hallowen/hombre/3.jpg", nombre: "HALLOWEEN DE JESUS DEL POZO HOMBRE 125ML EDT", precio: 24000},
             ],
             mujeres: [
-                "./img/hallowen/mujer/1.jpg",
-                "./img/hallowen/mujer/2.jpg",
-                "./img/hallowen/mujer/3.jpg",
+                { src: "./img/hallowen/mujer/1.jpg", nombre: "HALLOWEEN DE JESUS DEL POZO MUJER 100ML EDT", precio: 24000},
+                { src: "./img/hallowen/mujer/2.jpg", nombre: "HALLOWEEN SHOT", precio: 29500},
+                { src: "./img/hallowen/mujer/3.jpg", nombre: "HALLOWEEN I AM UNIQUE DE JESUS DEL POZO MUJER 100ML EDT", precio: 23000},
             ],
             unixes: [
             ]
@@ -461,8 +461,8 @@ const marcasData = [
         nombre: "Hermès",
         perfumes: {
             hombres: [
-                "./img/hermes/hombre/1.jpg",
-                "./img/hermes/hombre/2.jpg",
+                { src: "./img/hermes/hombre/1.jpg", nombre: "TERRE D HERMES DE TERRE HOMBRE 100ML EDT", precio: 60000},
+                { src: "./img/hermes/hombre/2.jpg", nombre: "TERRE D'HERMES PARFUM", precio: 75000},
             ],
             mujeres: [
             ],
@@ -475,13 +475,13 @@ const marcasData = [
         nombre: "Hugo Boss",
         perfumes: {
             hombres: [
-                "./img/hugoboss/hombre/1.jpg",
-                "./img/hugoboss/hombre/2.jpg",
-                "./img/hugoboss/hombre/3.jpg",
-                "./img/hugoboss/hombre/4.jpg",
+                { src: "./img/hugoboss/hombre/1.jpg", nombre: "BOSS BOTTLED ELIXIR HOMBRE 100ML EDP", precio: 58000},
+                { src: "./img/hugoboss/hombre/2.jpg", nombre: "BOSS BOTTLED NIGHT DE HUGO BOSS HOMBRE 100ML EDT", precio: 40000},
+                { src: "./img/hugoboss/hombre/3.jpg", nombre: "BOSS BOTTLED ABSOLUTE HOMBRE 100ML EDP", precio: 52000},
+                { src: "./img/hugoboss/hombre/4.jpg", nombre: "BOSS BOTTLED DE HUGO BOSS HOMBRE 100ML EDT", precio: 40000},
             ],
             mujeres: [
-                "./img/hugoboss/mujer/1.jpg",
+                { src: "./img/hugoboss/mujer/1.jpg", nombre: "HUGO XX DE HUGO BOSS MUJER 100ML EDT", precio: 26000},
             ],
             unixes: [
             ]
@@ -492,9 +492,9 @@ const marcasData = [
         nombre: "Issey Miyake",
         perfumes: {
             hombres: [
-                "./img/isseymiyake/hombre/1.jpg",
-                "./img/isseymiyake/hombre/2.jpg",
-                "./img/isseymiyake/hombre/3.jpg",
+                { src: "./img/isseymiyake/hombre/1.jpg", nombre: "ISSEY MIYAKE HOMBRE 125ML EDT", precio: 30000},
+                { src: "./img/isseymiyake/hombre/2.jpg", nombre: "ISSEY MIYAKE HOMBRE 125ML EDT", precio: 36000},
+                { src: "./img/isseymiyake/hombre/3.jpg", nombre: "ISSEY MIYAKE SPORT HOMBRE 100ML EDT", precio: 30000},
             ],
             mujeres: [
             ],
