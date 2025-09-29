@@ -983,7 +983,7 @@ const marcasData = [
             hombres: [
             ],
             mujeres: [
-                { src: "./img/Lancome/mujer/1.jpg", nombre: "VIDA BELLA MUJER 100ML EDP", precio: 60000 },
+                { src: "./img/Lancome/mujer/1.jpg", nombre: "VIDA BELLA MUJER 100ML EDP", precio: 70000 },
                 { src: "./img/Lancome/mujer/2.jpg", nombre: "LA VIE EST BELLE INTENSÉMENT", precio: 77000 },
                 { src: "./img/Lancome/mujer/3.jpg", nombre: "MIRACLE", precio: 67000 },
                 { src: "./img/Lancome/mujer/4.jpg", nombre: "LA VIDA ES BELLA IRIS ABSOLU MUJER 100ML EDP", precio: 65000 },
