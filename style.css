@@ -869,3 +869,50 @@ body {
         box-shadow: none !important;
     }
 }
+
+/* NUEVOS ESTILOS PARA INDEX MOSTRANDO PERFUMES */
+.perfumes-section {
+  padding: 40px 20px;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+.perfumes-grid img {
+    width: 100%;
+    max-width: 220px;
+    border-radius: 10px;
+    /* background-color: #f9f9f9;
+    padding: 15px; */
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease;
+}
+
+.pagination {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  flex-wrap: wrap;
+}
+
+.pagination button {
+  padding: 8px 14px;
+  border: none;
+  background: #232323;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.pagination button.active {
+  background: #f39c12;
+}
+
+@media (max-width: 768px) {
+  .pagination button {
+    padding: 6px 10px;
+    font-size: 13px;
+  }
+}
+

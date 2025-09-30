@@ -320,8 +320,8 @@ const marcasData = [
             ],
             mujeres: [
                 { src: "./img/chanel/mujer/1.jpg", nombre: "COCO MADEMOISELLE EDP", precio: 110000 },
-                "./img/chanel/mujer/2.jpg",
-                "./img/chanel/mujer/3.jpg",
+                { src: "./img/chanel/mujer/2.jpg"},
+                { src: "./img/chanel/mujer/3.jpg" },
             ],
             unixes: [
             ]
@@ -581,8 +581,8 @@ const marcasData = [
                 { src: "./img/louisvuitton/hombre/5.jpg", nombre: "LOUIS VUITTON PACIFIC CHILL", precio: 295000 },
             ],
             mujeres: [
-                "./img/louisvuitton/mujer/1.jpg",
-                "./img/louisvuitton/mujer/2.jpg",
+                { src: "./img/louisvuitton/mujer/1.jpg" },
+                { src: "./img/louisvuitton/mujer/2.jpg" },
             ],
             unixes: [
             ]
@@ -795,7 +795,7 @@ const marcasData = [
             ],
             unixes: [
                 { src: "./img/initio/hombre/1.jpg", nombre: "INITIO PARFUMS PRIVES SIDE EFFECT", precio: 205000 },
-                "./img/initio/hombre/2.jpg",
+                { src: "./img/initio/hombre/2.jpg" },
             ]
         }
     },

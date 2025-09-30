@@ -1,7 +1,12 @@
+import { marcasData } from './data.js';
+
 function toggleMenu() {
     const navbar = document.querySelector('header .navbar');
     navbar.classList.toggle('active');
 }
+
+
+window.toggleMenu = toggleMenu;
 
 function redirectToWhatsApp(brand, product, price, imageUrl) {
     const message = `Hola, estoy interesado en el perfume ${product} de ${brand}, que tiene un precio de ${price}. 
@@ -197,4 +202,147 @@ document.querySelectorAll('.marca').forEach(marca => {
         root.setAttribute('tabindex', '0');
     }
 })();
+
+
+// Configuración
+const perfumesPerPage = 12;
+let currentPage = 1;
+let allPerfumes = [];
+
+// Extraer todos los perfumes de todas las marcas
+function collectAllPerfumes() {
+    allPerfumes = [];
+    marcasData.forEach(marca => {
+        const { hombres, mujeres, unixes } = marca.perfumes;
+        [...hombres, ...mujeres, ...unixes].forEach(perfume => {
+            allPerfumes.push({
+                ...perfume,
+                marca: marca.nombre
+            });
+        });
+    });
+}
+
+// Crear item con estructura igual a marca.html
+function createPerfumeItemGlobal(p) {
+    const wrap = document.createElement('div');
+    wrap.className = 'perfumery-item';
+
+    const img = document.createElement('img');
+    img.src = p.src;
+    img.alt = `${p.nombre} - ${p.marca}`;
+    wrap.appendChild(img);
+
+    const name = document.createElement('div');
+    name.className = 'perfume-name';
+    name.textContent = p.nombre;
+    wrap.appendChild(name);
+
+    const price = document.createElement('div');
+    price.className = 'perfume-price';
+    price.textContent = p.precio != null
+        ? new Intl.NumberFormat('es-CR', { style: 'currency', currency: 'CRC', maximumFractionDigits: 0 }).format(p.precio)
+        : 'Consultar';
+    wrap.appendChild(price);
+
+    const actions = document.createElement('div');
+    actions.className = 'perfume-actions';
+
+    const a = document.createElement('a');
+    a.className = 'btn-get-info';
+    a.href = `https://wa.me/50687683732?text=${encodeURIComponent(`Hola, me interesa ${p.marca} - ${p.nombre} (${price.textContent}).`)}`;
+    a.target = '_blank';
+    a.rel = 'noopener';
+    a.textContent = 'Comprar por WhatsApp';
+
+    actions.appendChild(a);
+    wrap.appendChild(actions);
+
+    return wrap;
+}
+
+// Renderizar perfumes en la página actual
+function renderPerfumes(page = 1) {
+    const grid = document.getElementById("perfumes-grid");
+    if (!grid) return; // ⛔ si no existe, salir de la función
+    grid.innerHTML = "";
+
+    const start = (page - 1) * perfumesPerPage;
+    const end = start + perfumesPerPage;
+    const perfumesToShow = allPerfumes.slice(start, end);
+
+    perfumesToShow.forEach(p => grid.appendChild(createPerfumeItemGlobal(p)));
+
+    renderPagination();
+}
+
+// Renderizar botones de paginación
+function renderPagination() {
+    const pagination = document.getElementById("pagination");
+    if (!pagination) return; // ⛔ evitar error si no existe
+    pagination.innerHTML = "";
+    const totalPages = Math.ceil(allPerfumes.length / perfumesPerPage);
+
+    const maxVisible = 4; // cantidad de números visibles
+    let start = Math.max(1, currentPage - Math.floor(maxVisible / 2));
+    let end = start + maxVisible - 1;
+
+    if (end > totalPages) {
+        end = totalPages;
+        start = Math.max(1, end - maxVisible + 1);
+    }
+
+    // Botón "anterior"
+    if (currentPage > 1) {
+        const prevBtn = document.createElement("button");
+        prevBtn.textContent = "←";
+        prevBtn.addEventListener("click", () => {
+            currentPage--;
+            renderPerfumes(currentPage);
+            // document.getElementById("perfumes").scrollIntoView({
+            //     behavior: "smooth",
+            //     block: "start"
+            // });
+        });
+        pagination.appendChild(prevBtn);
+    }
+
+    // Botones numéricos
+    for (let i = start; i <= end; i++) {
+        const btn = document.createElement("button");
+        btn.textContent = i;
+        btn.classList.toggle("active", i === currentPage);
+        btn.addEventListener("click", () => {
+            currentPage = i;
+            renderPerfumes(currentPage);
+            // document.getElementById("perfumes").scrollIntoView({
+            //     behavior: "smooth",
+            //     block: "start"
+            // });
+        });
+        pagination.appendChild(btn);
+    }
+
+    // Botón "siguiente"
+    if (currentPage < totalPages) {
+        const nextBtn = document.createElement("button");
+        nextBtn.textContent = "→";
+        nextBtn.addEventListener("click", () => {
+            currentPage++;
+            renderPerfumes(currentPage);
+            // document.getElementById("perfumes").scrollIntoView({
+            //     behavior: "smooth",
+            //     block: "start"
+            // });
+        });
+        pagination.appendChild(nextBtn);
+    }
+}
+
+
+// Inicializar
+document.addEventListener("DOMContentLoaded", () => {
+    collectAllPerfumes();
+    renderPerfumes();
+});
 
