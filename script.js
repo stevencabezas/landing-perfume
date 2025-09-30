@@ -299,10 +299,10 @@ function renderPagination() {
         prevBtn.addEventListener("click", () => {
             currentPage--;
             renderPerfumes(currentPage);
-            // document.getElementById("perfumes").scrollIntoView({
-            //     behavior: "smooth",
-            //     block: "start"
-            // });
+            document.getElementById("perfumes").scrollIntoView({
+                behavior: "smooth",
+                block: "start"
+            });
         });
         pagination.appendChild(prevBtn);
     }
@@ -315,10 +315,10 @@ function renderPagination() {
         btn.addEventListener("click", () => {
             currentPage = i;
             renderPerfumes(currentPage);
-            // document.getElementById("perfumes").scrollIntoView({
-            //     behavior: "smooth",
-            //     block: "start"
-            // });
+            document.getElementById("perfumes").scrollIntoView({
+                behavior: "smooth",
+                block: "start"
+            });
         });
         pagination.appendChild(btn);
     }
@@ -330,10 +330,10 @@ function renderPagination() {
         nextBtn.addEventListener("click", () => {
             currentPage++;
             renderPerfumes(currentPage);
-            // document.getElementById("perfumes").scrollIntoView({
-            //     behavior: "smooth",
-            //     block: "start"
-            // });
+            document.getElementById("perfumes").scrollIntoView({
+                behavior: "smooth",
+                block: "start"
+            });
         });
         pagination.appendChild(nextBtn);
     }
