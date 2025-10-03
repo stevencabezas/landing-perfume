@@ -544,14 +544,15 @@ footer a {
 
 .item-decant-description{
     text-align: center;
+    margin-block-end: 20px;
 }
 
 .item-decant-description > h3{
-    color: #055888;
+    color: #070707;
 }
 
 .item-decant-description p span{
-    color: #070707;
+    color: #055888;
     font-weight: bold;
 }
 .decants-section{
